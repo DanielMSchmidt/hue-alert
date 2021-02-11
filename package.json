@@ -1,0 +1,15 @@
+{
+  "name": "openfaas-function",
+  "version": "1.0.0",
+  "description": "OpenFaaS Function",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "OpenFaaS Ltd",
+  "license": "MIT",
+  "dependencies": {
+    "node-hue-api": "^4.0.10"
+  }
+}
