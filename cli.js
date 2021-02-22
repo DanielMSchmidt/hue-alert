@@ -1,4 +1,12 @@
 #!/usr/bin/env node
 
-// TODO: send request to openfaasd client
-// TODO: use args to allow init
+const { alert } = require("./index");
+
+alert().then(
+  () => {
+    console.log("Alerted");
+  },
+  (e) => {
+    console.error("Error alerting", e);
+  }
+);

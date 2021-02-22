@@ -4,7 +4,8 @@
   "description": "OpenFaaS Function",
   "main": "handler.js",
   "scripts": {
-    "start": "node index.js"
+    "createUser": "node ./createUser.js",
+    "start": "./cli.js"
   },
   "keywords": [],
   "author": "OpenFaaS Ltd",
